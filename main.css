@@ -1,0 +1,83 @@
+html{
+    zoom: 90%;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+background-image: linear-gradient(to bottom right, #00F490 , #00BBC9);
+}
+h1{
+    font-family:'Abril Fatface', cursive;
+}
+.container{
+    max-width: 1024px;
+}
+.jumbotron{
+    background: none;
+}
+.btn{
+    background: rgb(10, 218, 131);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border: 1px solid #00F490;
+   
+}
+.cards.btn-primary:hover{
+    color: white;
+}
+
+h1.display-4{
+    margin-top: 10px;
+    font-size: 31.5px;
+    color: white;
+    word-spacing: 1.5px;
+}
+p.lead{
+    font-size: 17.45px;
+    color: white;
+    word-spacing: 1px;
+}
+a.btn.btn-primary.btn-lg{
+    /* where ever there is a space in clss name or two diff classes of a same tag we use . (dot) to join them. */
+    background: none;
+    border: 1px solid white;
+    font-size: 13.75px;
+    margin-top: 7px;
+
+}
+
+h1.zyz::first-letter{
+    font-size:50px;
+}
+.zyz{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    margin:5px;
+    border: 1px solid rgba(255, 255, 255, 0.849);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    
+}
+li.nav-item{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+@media (max-width:979px){
+    a.nav-link{
+        border: none;
+    }
+}
